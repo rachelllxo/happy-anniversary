@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy 25th Anniversary</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #fff1eb, #ace0f9);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+                  url('https://images.unsplash.com/photo-1523438885200-e635ba2c371e') center/cover no-repeat;
+      color: #fff;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      letter-spacing: 1px;
+    }
+
+    section {
+      padding: 4rem 10%;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 2.5rem;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+      margin-bottom: 3rem;
+    }
+
+    .card h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      color: #b76e79;
+    }
+
+    .card p {
+      font-size: 1.05rem;
+      text-align: center;
+    }
+
+    .timeline {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .timeline div {
+      background: #fdf2f8;
+      padding: 1.5rem;
+      border-radius: 15px;
+      text-align: center;
+    }
+
+    .timeline h3 {
+      color: #9b4f96;
+      margin-bottom: 0.5rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      border-radius: 15px;
+      transition: transform 0.4s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    footer p {
+      font-size: 0.95rem;
+      opacity: 0.9;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+
+      section {
+        padding: 3rem 6%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>
+      <h1>Happy 25th Wedding Anniversary</h1>
+      <p>Celebrating 25 Years of Love, Togetherness & Memories</p>
+        <p>By Rachel and Rebecca </p>
+    </div>
+  </header>
+
+  <section>
+    <div class="card">
+      <h2>A Beautiful Journey</h2>
+      <p>
+        Twenty-five years ago, two hearts became one, beginning a journey filled with love,
+        patience, strength, and countless beautiful memories. Love you Mom and Dad 
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Milestones Through the Years</h2>
+      <div class="timeline">
+        <div>
+          <h3>The Beginning - 2001 </h3>
+          <p>Today is the day two souls promised forever.</p>
+        </div>
+        <div>
+          <h3>Growing Together</h3>
+          <p>Building a home filled with love and dreams.</p>
+        </div>
+        <div>
+          <h3>Beautiful Memories</h3>
+          <p>Every laugh, every challenge, every moment shared.</p>
+        </div>
+        <div>
+          <h3>25 Years Strong</h3>
+          <p>A silver milestone of love and togetherness.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Memory Gallery</h2>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" alt="Memory 1">
+        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9" alt="Memory 2">
+        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1" alt="Memory 3">
+        <img src="https://images.unsplash.com/photo-1511988617509-a57c8a288659" alt="Memory 4">
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>With Love</h2>
+      <p>
+        Your love story is the foundation of our family and the reason we believe in true love.
+        May your bond continue to grow stronger, and may the years ahead be even more beautiful
+        than the ones behind.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Made with love  to celebrate 25 years of togetherness</p>
+  </footer>
+
+</body>
+</html>
